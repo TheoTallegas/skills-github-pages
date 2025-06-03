@@ -1,84 +1,229 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="styles.css" rel="stylesheet"/>
-<title>Théo Tallegas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Théo Tallegas</title>
 </head>
 <body>
-<header>
-  <h1>Théo Tallegas</h1>
-  <p>Étudiant en BUT Informatique - IUT de Lannion</p>
-</header>
-<main>
-  <section id="about">
-    <h2>À propos de moi</h2>
-    <p>Je suis actuellement étudiant en Bachelor Universitaire de Technologie Informatique à l'IUT de Lannion. Passionné par le développement logiciel, les nouvelles technologies et la résolution de problèmes complexes, je cherche à acquérir de l'expérience professionnelle tout en développant mes compétences techniques.</p>
-    <a href="cv.pdf" class="btn" download>Télécharger mon CV</a>
-  </section>
-  <section id="education">
-    <h2>Formation</h2>
-    <ul>
-      <li><strong>BUT Informatique</strong> — IUT de Lannion (2024 - en cours)</li>
-      <li><strong>Baccalauréat général</strong>, spécialité Mathématiques et NSI (Numérique et Sciences Informatiques) (2023)</li>
-    </ul>
-  </section>
-  <section id="skills">
-    <h2>Compétences</h2>
-    <ul class="skills">
-      <li>HTML5</li>
-      <li>CSS3</li>
-      <li>JavaScript</li>
-      <li>Java</li>
-      <li>Python</li>
-      <li>SQL</li>
-      <li>Git & GitHub</li>
-      <li>Linux</li>
-    </ul>
-  </section>
-  <section id="projects">
-    <h2>Projets</h2>
-    <div class="projects">
-      <div class="project-card">
-        <h3>Jeu du "Snake" autonome</h3>
-        <p>Jeu du Snake en version autonome, développé au travers de plusieurs versions, ou le serpent est capable de se déplacer tout seul et de se diriger automatiquement vers les pommes.</p>
-        <div class="project-skills">
-          <span class="project-skill">Réaliser un développement d'application.</span>
-          <span class="project-skill">Administrer des systèmes informatiques communicants complexes.</span>
+    <header>
+        <h1>Théo Tallegas</h1>
+        <p>Étudiant en BUT Informatique - IUT de Lannion</p>
+    </header>
+    <main>
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>Je suis actuellement étudiant en Bachelor Universitaire de Technologie Informatique à l'IUT de Lannion. Passionné par le développement logiciel, les nouvelles technologies et la résolution de problèmes complexes, je cherche à acquérir de l'expérience professionnelle tout en développant mes compétences techniques.</p>
+            <a href="cv.pdf" class="btn" download>Télécharger mon CV</a>
+        </section>
+        <section id="education">
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>BUT Informatique</strong> — IUT de Lannion (2024 - en cours)</li>
+                <li><strong>Baccalauréat général</strong>, spécialité Mathématiques et NSI (Numérique et Sciences Informatiques) (2023)</li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Compétences</h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Git & GitHub</li>
+                <li>Linux</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projets</h2>
+            <div class="projects">
+                <div class="project-card" id="snake-game">
+                    <h3>Jeu du "Snake" autonome</h3>
+                    <p>Jeu du Snake en version autonome, développé au travers de plusieurs versions, ou le serpent est capable de se déplacer tout seul et de se diriger automatiquement vers les pommes.</p>
+                    <div class="project-skills">
+                        <span class="project-skill">Réaliser un développement d'application.</span>
+                        <span class="project-skill">Administrer des systèmes informatiques communicants complexes.</span>
+                    </div>
+                    <div class="project-versions">
+                        <div class="version-card">Version 1</div>
+                        <div class="version-card">Version 2</div>
+                        <div class="version-card">Version 3</div>
+                        <div class="version-card">Version 4</div>
+                    </div>
+                </div>
+                <div class="project-card" id="olympics-site">
+                    <h3>Site Web Jeux Olympiques</h3>
+                    <p>Un site web personnel sur le thème des Jeux Olympiques, développé avec du HTML, CSS ainsi que du JavaScript.</p>
+                    <div class="project-skills">
+                        <span class="project-skill">Optimiser des applications informatiques.</span>
+                        <span class="project-skill">Conduire un projet.</span>
+                    </div>
+                    <div class="project-versions">
+                        <div class="version-card">Version 1</div>
+                        <div class="version-card">Version 2</div>
+                        <div class="version-card">Version 3</div>
+                    </div>
+                </div>
+                <div class="project-card" id="iut-database">
+                    <h3>Base de données sur l'IUT de Lannion</h3>
+                    <p>Une base de données simulant l'admissions des étudiants à l'IUT de Lannion, développé en SQL et maquettisé en UML.</p>
+                    <div class="project-skills">
+                        <span class="project-skill">Gérer des données de l'information.</span>
+                        <span class="project-skill">Travailler dans une équipe informatique.</span>
+                    </div>
+                    <div class="project-versions">
+                        <div class="version-card">Version 1</div>
+                        <div class="version-card">Version 2</div>
+                        <div class="version-card">Version 3</div>
+                        <div class="version-card">Version 4</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter via :</p>
+            <ul class="contact-info">
+                <li>Email : <a href="mailto:votre.email@example.com">theo.tallegas@etudiant.univ-rennes.fr</a></li>
+                <li>LinkedIn : <a href="https://www.linkedin.com/in/theotallegas" target="_blank" rel="noopener">linkedin.com/in/theotallegas</a></li>
+                <li>GitHub : <a href="https://github.com/theotallegas" target="_blank" rel="noopener">github.com/theotallegas</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 Théo TALLEGAS - Portfolio
+    </footer>
+    <!-- Modal pour les étapes des projets -->
+    <div id="project-steps-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2 class="modal-title"></h2>
+            <div class="steps-container">
+                <!-- Les étapes seront insérées dynamiquement ici -->
+            </div>
         </div>
-      </div>
-      <div class="project-card">
-        <h3>Site Web Jeux Olympiques</h3>
-        <p>Un site web personnel sur le thème des Jeux Olympiques, développé avec du HTML, CSS ainsi que du JavaScript.</p>
-        <div class="project-skills">
-          <span class="project-skill">Optimiser des applications informatiques.</span>
-          <span class="project-skill">Conduire un projet.</span>
-        </div>
-      </div>
-      <div class="project-card">
-        <h3>Base de données sur l'IUT de Lannion</h3>
-        <p>Une base de données simulant l'admissions des étudiants à l'IUT de Lannion, développé en SQL et maquettisé en UML.</p>
-        <div class="project-skills">
-          <span class="project-skill">Gérer des données de l'information.</span>
-          <span class="project-skill">Travailler dans une équipe informatique.</span>
-        </div>
-      </div>
     </div>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Vous pouvez me contacter via :</p>
-    <ul class="contact-info">
-      <li>Email : <a href="mailto:votre.email@example.com">theo.tallegas@etudiant.univ-rennes.fr</a></li>
-      <li>LinkedIn : <a href="https://www.linkedin.com/in/theotallegas" target="_blank" rel="noopener">linkedin.com/in/theotallegas</a></li>
-      <li>GitHub : <a href="https://github.com/theotallegas" target="_blank" rel="noopener">github.com/theotallegas</a></li>
-    </ul>
-  </section>
-</main>
-<footer>
-  &copy; 2025 Théo TALLEGAS
-</footer>
+    <script>
+        // Fonction pour créer les étapes du projet
+        function createProjectSteps(projectId, steps) {
+            const modal = document.getElementById('project-steps-modal');
+            const stepsContainer = modal.querySelector('.steps-container');
+            const modalTitle = modal.querySelector('.modal-title');
+            // Nettoyer le conteneur d'étapes
+            stepsContainer.innerHTML = '';
+            // Définir le titre du projet
+            modalTitle.textContent = document.querySelector(`#${projectId}`).querySelector('h3').textContent;
+            // Créer les étapes
+            steps.forEach((step, index) => {
+                const stepElement = document.createElement('div');
+                stepElement.className = 'step-item';
+                stepElement.innerHTML = `
+                    <h3>Étape ${index + 1}</h3>
+                    <p>${step.description}</p>
+                    ${step.skills ? `<div class="skills">${step.skills.join(', ')}</div>` : ''}
+                `;
+                stepsContainer.appendChild(stepElement);
+            });
+        }
+
+        // Fonction pour afficher/masquer le modal
+        function toggleModal(display) {
+            const modal = document.getElementById('project-steps-modal');
+            if (display) {
+                modal.style.display = 'flex';
+                modal.classList.add('active');
+            } else {
+                modal.classList.remove('active');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+        }
+
+        // Ajouter les données des étapes pour chaque projet
+        const projectSteps = {
+            'snake-game': [
+                {
+                    description: 'Développement du système de déplacement automatique',
+                    skills: ['Algorithmes', 'Système de navigation autonome']
+                },
+                {
+                    description: 'Implémentation de la logique de recherche de chemin',
+                    skills: ['Programmation Orientée Objet', 'Optimisation']
+                },
+                {
+                    description: 'Ajout des mécanismes d\'évitage des obstacles',
+                    skills: ['Structure de données', 'Logique']
+                },
+                {
+                    description: 'Tests et optimisations finales',
+                    skills: ['Tests unitaires', 'Performance']
+                }
+            ],
+            'olympics-site': [
+                {
+                    description: 'Conception de l\'architecture du site',
+                    skills: ['HTML5', 'CSS3']
+                },
+                {
+                    description: 'Développement des fonctionnalités principales',
+                    skills: ['JavaScript', 'DOM']
+                },
+                {
+                    description: 'Création des animations et interactions',
+                    skills: ['Animations CSS', 'Event Handling']
+                },
+            ],
+            'iut-database': [
+                {
+                    description: 'Modélisation de la base de données',
+                    skills: ['SQL', 'UML']
+                },
+                {
+                    description: 'Implémentation des relations',
+                    skills: ['Base de données relationnelles', 'Normalisation']
+                },
+                {
+                    description: 'Création des procédures stockées',
+                    skills: ['SQL', 'Performance']
+                },
+                {
+                    description: 'Tests et documentation',
+                    skills: ['Tests de données', 'Documentation technique']
+                }
+            ]
+        };
+
+        // Gestionnaire d'événements pour les cartes de projets
+        document.querySelectorAll('.project-card').forEach(card => {
+            card.addEventListener('click', function(e) {
+                // Empêcher l'ouverture des versions si c'est une carte de projet qui est cliquée
+                const versions = this.querySelector('.project-versions');
+                if (!versions) return;
+                // Obtenir l'ID du projet
+                const projectId = this.id;
+                // Créer et afficher le modal avec les étapes
+                createProjectSteps(projectId, projectSteps[projectId]);
+                toggleModal(true);
+                // Empêcher la propagation de l'événement pour ne pas ouvrir les versions
+                e.stopPropagation();
+            });
+        });
+
+        // Ajouter un écouteur pour le bouton de fermeture
+        document.querySelector('.close-button').addEventListener('click', () => {
+            toggleModal(false);
+        });
+
+        // Fermer le modal en cliquant sur le fond
+        window.addEventListener('click', function(e) {
+            if (e.target === document.getElementById('project-steps-modal')) {
+                toggleModal(false);
+            }
+        });
+    </script>
 </body>
 </html>
-
