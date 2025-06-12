@@ -7,6 +7,16 @@
     <title>Théo Tallegas</title>
 </head>
 <body>
+<nav class="navbar">
+  <ul class="navbar-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#education">Formation</a></li>
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
     <header>
         <h1>Théo Tallegas</h1>
         <p>Étudiant en BUT Informatique - IUT de Lannion</p>
@@ -80,6 +90,34 @@
                         <div class="version-card">Version 3</div>
                         <div class="version-card">Version 4</div>
                     </div>
+                </div> 
+                <div class="project-card" id="network-services">
+                <h3>Installation de services réseaux</h3>
+                <p>Mise en place d'un environnement réseau en machine virtuelle avec installation et configuration de modules PHP et MySQL.</p>
+                <div class="project-skills">
+                    <span class="project-skill">Administrer des systèmes informatiques communicants complexes.</span>
+                    <span class="project-skill">Travailler dans une équipe informatique.</span>
+                </div>
+                <div class="project-versions">
+                    <div class="version-card">Version 1</div>
+                    <div class="version-card">Version 2</div>
+                    <div class="version-card">Version 3</div>
+                </div>
+                </div>
+
+                <div class="project-card" id="app-development">
+                <h3>Développement d'une application</h3>
+                <p>Conception et développement d'une application Java avec interface graphique en JavaFX, depuis la modélisation UML jusqu'à la création fonctionnelle de l'application.</p>
+                <div class="project-skills">
+                    <span class="project-skill">Réaliser un développement d'application.</span>
+                    <span class="project-skill">Conduire un projet.</span>
+                </div>
+                <div class="project-versions">
+                    <div class="version-card">Version 1</div>
+                    <div class="version-card">Version 2</div>
+                    <div class="version-card">Version 3</div>
+                    <div class="version-card">Version 4</div>
+                </div>
                 </div>
             </div>
         </section>
@@ -94,7 +132,7 @@
         </section>
     </main>
     <footer>
-        &copy; 2024 Théo TALLEGAS - Portfolio
+        &copy; 2025 Théo TALLEGAS - Portfolio
     </footer>
     <!-- Modal pour les étapes des projets -->
     <div id="project-steps-modal" class="modal">
@@ -194,7 +232,41 @@
                     description: 'Tests et documentation',
                     skills: ['Tests de données', 'Documentation technique']
                 }
+            ],
+            'network-services': [
+            {
+                description: 'Découverte de l\'environnement virtualisé via VMware et familiarisation avec la ligne de commande Linux.',
+                skills: ['VMware', 'Linux', 'Réseaux']
+            },
+            {
+                description: 'Installation et configuration du module PHP pour exécuter des scripts côté serveur.',
+                skills: ['PHP', 'Apache', 'Services web']
+            },
+            {
+                description: 'Mise en place de MySQL et intégration avec PHP pour gérer une base de données.',
+                skills: ['MySQL', 'PHP', 'Connexion base de données']
+            }
+            ],
+
+            'app-development': [
+            {
+                description: 'Réalisation d\'un diagramme de classes UML pour structurer les entités du logiciel sur draw.io.',
+                skills: ['UML, Draw.io, Schématisation']
+            },
+            {
+                description: 'Création d\'une maquette d\'interface utilisateur avec JavaFX Scenebuilder pour visualiser l’IHM.',
+                skills: ['JavaFX Scenebuilder, FXML, Maquettage']
+            },
+            {
+                description: 'Développement des classes Java correspondant aux entités du diagramme UML.',
+                skills: ['Eclipse, Conception']
+            },
+            {
+                description: 'Assemblage final de l\'application à partir des classes Java et des fichiers FXML de Scenebuilder.',
+                skills: ['JavaFX, Eclipse, Développement Orienté Objets']
+            }
             ]
+
         };
 
         // Gestionnaire d'événements pour les cartes de projets
